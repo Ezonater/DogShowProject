@@ -2,6 +2,7 @@ public class ShowDog extends Dog implements Comparable<ShowDog>{
     private int medals;
 
     public ShowDog() {
+        super("Uknown",0,0);
         medals = 0;
     }
 
